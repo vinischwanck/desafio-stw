@@ -78,3 +78,11 @@ Utilizei o tipo MachineStatus fornecido no desafio para organizar as informaçõ
 Também separei as funções em arquivos e pastas diferentes do page.tsx, buscando deixar o código mais organizado.
 
 Para desenvolver a função de simulação da temperatura, consultei a documentação oficial do React sobre o useState: https://pt-br.react.dev/reference/react/useState
+Pelo que fui entendendo, o useState parece ser uma das peças principais do React, mas não consegui entender totalmente a funcionalidade, mas entendi que o useState é utilizado para guardar valores que podem mudar durante a execução da aplicação.
+
+
+Nesse caso, ele foi importante para armazenar o valor atual da temperatura e permitir que esse valor fosse atualizado durante a simulação. Quando o estado é atualizado, o React consegue refletir essa mudança na interface.
+
+Depois de entender essa lógica para a temperatura, utilizei uma ideia semelhante para fazer a simulação do RPM e outras partes que precisavam de valores dinâmicos.
+
+Utilizei a propriedade {children} no componente InfoCard para conseguir reutilizar o mesmo componente com conteúdos diferentes.
