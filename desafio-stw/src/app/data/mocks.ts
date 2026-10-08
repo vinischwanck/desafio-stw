@@ -87,7 +87,7 @@ export function formatarTempo(segundos: number): string {
 }
 
 
-// Informações fakes para preencher as divs de Gráficos, Alertas e Métricas
+// Informações fakes para preencher as divs de Gráficos, Alertas e Métricas. Porém não consegui avançar na parte de exibir essas informações no page.tsx
 
 const historico = [
     { hora: "10:00", temp: 62, rpm: 1180 },

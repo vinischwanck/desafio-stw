@@ -4,6 +4,7 @@ import Image from "next/image";
 import { MachineStatus, Alert, MetricHistory } from "./types/index";
 import { useSimularTemperatura, useSimularRPM, useTempoOperacao, formatarTempo, useMaxRpm, useMaxTemp } from "./data/mocks"
 
+//Criado esse objeto para reaproveitar as estruturas dos cards
 function InfoCard({ title, children }: { title: string, children: React.ReactNode }) {
   return (<div className="flex flex-col rounded-lg border p-4 w-[25%] text-center" >
     <h2 className="font-bold">{title}</h2>
